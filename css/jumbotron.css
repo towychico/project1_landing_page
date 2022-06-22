@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Niagara Engraved';
+  src: local('Niagara Engraved'), local('NiagaraEngraved-Reg'),
+  url('../fonts/NiagaraEngraved-Reg.woff2') format('woff2'),
+  url('../fonts/NiagaraEngraved-Reg.woff2') format('woff');
+
+  font-style: normal;
+
+}
+
+
 nav{
   background: #ffffff;
   position: fixed;
