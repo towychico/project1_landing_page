@@ -16,12 +16,15 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
+
+  <meta name="theme-color" content="#fafafa">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/jumbotron.css">
   <link rel="stylesheet" href="css/navigation.css">
   <link rel = "stylesheet" href ="css/spline.css">
-  <meta name="theme-color" content="#fafafa">
+  <script  src="js/swich_flavor.js" defer></script> <!-- I need to load first the script but to only execute it after the html has finished loading that is why is here -->
+
 </head>
 
 <body>
@@ -49,10 +52,10 @@
           <div class="flavors-container-title"><h2>Flavors</h2></div> <!--I am aware this should be a label -->
           <div class="flavors-container-flavors">
 
-            <button onclick="SwitchCan(purple_can_DOM)">Purple</button>
-            <button onclick="SwitchCan(blue_can_DOM)">Blue</button>
-            <button onclick="SwitchCan(green_can_DOM)">green</button>
-            <button onclick="SwitchCan(red_can_DOM)">red</button>
+            <button type="button" onclick="SwitchCan(purple_can_DOM)">Purple</button>
+            <button type="button" onclick="SwitchCan(blue_can_DOM)">Blue</button>
+            <button type="button" onclick="SwitchCan(green_can_DOM)">green</button>
+            <button type="button" onclick="SwitchCan(red_can_DOM)">red</button>
           </div>
         </div>
         <div class="form-send-container">
@@ -81,12 +84,13 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  -->
 </body>
 
 </html>

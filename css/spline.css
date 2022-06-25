@@ -6,9 +6,11 @@
 }
 
 
-#purple_can,#blue_can, #green_can, #red_can{
+#purple_can,#blue_can, #green_can, #red_can
+{
 
   justify-content:center;
   width:100%;
   height:inherit;
 }
+
