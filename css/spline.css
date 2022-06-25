@@ -1,0 +1,14 @@
+.td-container{
+  width:100%;
+  height:700px;
+  display:flex;
+  background-color: #1c1b1b;
+}
+
+
+#purple_can,#blue_can, #green_can, #red_can{
+
+  justify-content:center;
+  width:100%;
+  height:inherit;
+}

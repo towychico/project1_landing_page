@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/jumbotron.css">
   <link rel="stylesheet" href="css/navigation.css">
-
+  <link rel = "stylesheet" href ="css/spline.css">
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -46,12 +46,13 @@
 
         </div>
         <div class="form-flavors-container">
-          <div class="flavors-container-title"><h2>Flavors</h2></div>
+          <div class="flavors-container-title"><h2>Flavors</h2></div> <!--I am aware this should be a label -->
           <div class="flavors-container-flavors">
-            <div class="flavor" id="Lemon"><p>Lemon</p></div>
-            <div class="flavor" id="gum"><p>Gum</p></div>
-            <div class="flavor" id="strawberry"><p>Strawberry</p></div>
-            <div class="flavor" id="grapes"><p>Grapes</p></div>
+
+            <button onclick="SwitchCan(purple_can_DOM)">Purple</button>
+            <button onclick="SwitchCan(blue_can_DOM)">Blue</button>
+            <button onclick="SwitchCan(green_can_DOM)">green</button>
+            <button onclick="SwitchCan(red_can_DOM)">red</button>
           </div>
         </div>
         <div class="form-send-container">
@@ -59,7 +60,7 @@
         </div>
       </div>
 
-      <p>form</p>
+
     </form>
     <div class="landing" id="can-conteiner-out">
       <div class="td-container">

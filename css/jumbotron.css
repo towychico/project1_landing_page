@@ -35,7 +35,7 @@
 .form-container{
   height:600px;
   width: 450px;
-  background:red;
+  background:red; /*todo: remove*/
   margin:50px auto;
 
   display:flex;
